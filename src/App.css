@@ -1,0 +1,108 @@
+
+*{
+   padding: 0; 
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:honeydew; 
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+h2{
+  padding-left: 43%;
+  font-size: 35px;
+  font-style: normal;
+  font-family:Georgia, 'Times New Roman', Times, serif ;
+  padding-top: 40px;
+}
+
+.firstdiv{
+  background-color: brown;
+  width: 60px;
+  height: 120px;
+  margin-left: 300px;
+  border-radius: 10px;
+  
+  
+}
+
+.firstdivcontainer{
+ /* background-color: greenyellow;*/
+  display: flex;
+  padding-top: 70px;
+  padding-left: 20px;
+
+
+}
+
+.text{
+  font-size: 20px;
+  /*margin-left: 40px;*/
+  /*margin-top: 60px;*/
+}
+
+.number{
+  padding-left: 50px;
+  padding-top: 5px;
+}
+
+.info1{
+  padding-left: 50px;
+}
+
+.info2{
+  padding-left: 50px;  
+}
+   
+.button{
+   padding-left: 500px;  
+  
+}
+
+.minus{
+  background: white;
+  border-radius: 5px;
+  font-size: 20px; 
+  margin-right: 5px;
+}
+
+.plus{
+  background-color: white;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.navbarstylin{
+  color: white;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-left: 20%;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  
+}
+.navbar{
+  height: 60px;
+  width: 100%;
+  background-color: brown;
+  margin-top: 5PX;
+  padding-bottom: 80px;
+
+}
+button{
+  padding: 10px;
+  cursor: pointer;
+
+}
+ 
+
+button:hover{
+  background-color: brown;
+}
+
